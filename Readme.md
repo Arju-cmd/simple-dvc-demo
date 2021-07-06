@@ -32,3 +32,28 @@ python -m pip install .
    37  git remote add origin https://github.com/Arju-cmd/simple-dvc-demo.git
    38  git branch -M main
    39  git push origin main
+   ////////////////
+
+   oneliner updates for readme
+   git add . && git commit -m "update Readme.md"
+
+   git remote add origin https://github.com/c17hawke/simple-dvc-demo.git
+git branch -M main
+git push origin main
+
+tox command -
+
+tox
+
+for rebuilding -
+
+tox -r 
+pytest command
+
+pytest -v
+setup commands -
+
+pip install -e . 
+build your own package commands-
+
+python setup.py sdist bdist_wheel
